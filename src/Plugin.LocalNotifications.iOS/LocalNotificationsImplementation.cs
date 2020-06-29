@@ -96,7 +96,8 @@ namespace Plugin.LocalNotifications
             var content = new UNMutableNotificationContent()
             {
                 Title = title,
-                Body = body
+                Body = body,
+                Sound = UNNotificationSound.Default
             };
             
             var request = UNNotificationRequest.FromIdentifier(id.ToString(), content, trigger);
