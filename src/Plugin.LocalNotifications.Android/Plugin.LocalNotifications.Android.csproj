@@ -97,7 +97,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\plugin_lc_smallicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\plugin_lc_smallicon.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi-v11\plugin_lc_smallicon.png" />
